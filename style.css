@@ -9,12 +9,47 @@ body {
     width: 100%;
 }
 
+#introduction {
+  margin-top: 90px;
+}
+
 /*.images {
     background-image:url(https://picsum.photos/seed/picsum/100/100);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
 }*/
+
+li {
+  display: flex;
+  align-items: baseline;
+  padding: inherit;
+}
+
+.nav {
+  width: 104%;
+}
+
+.nav__ul {
+  display: flex;
+  justify-content: center;
+  margin-top: -30px;
+  background-color: lavender;
+  border-radius: 10px;
+}
+
+.header {
+  position: absolute;
+  display: flex;
+}
+
+
+#name {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
 
 h1 {
     color: #0b2685;
@@ -80,7 +115,7 @@ a {
     background-color: white;
     padding: 40px;
     box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
-    border-radius: 4px;
+    border-radius: 10px;
     margin: 20px 0px;
     text-align: center;
 }
