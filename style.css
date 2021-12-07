@@ -1,7 +1,8 @@
 body {
-    background: #305285;
+    background-color: #bdd4e7;
+    background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
     display: block;
-    margin: 10px;
+    margin: 0px;
     color: #041f70;
     font-family: 'Roboto', sans-serif;;
     font-size: 20px;
@@ -9,12 +10,48 @@ body {
     width: 100%;
 }
 
+#introduction {
+  margin-top: 90px;
+}
+
 /*.images {
-    background-image:url(https://picsum.photos/seed/picsum/100/100);
-    background-size: 100%;
+    background-image:url(https://www.editions-arteaz.com/wp-content/uploads/2020/11/cheveux-dange2.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
+    margin: 0%;
 }*/
+
+li {
+  display: flex;
+  align-items: baseline;
+  padding: inherit;
+}
+
+.nav {
+  width: 104%;
+}
+
+.nav__ul {
+  display: flex;
+  justify-content: center;
+  margin-top: -30px;
+  background-color: lavender;
+  border-radius: 10px;
+}
+
+.header {
+  position: absolute;
+  display: flex;
+}
+
+
+#name {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
 
 h1 {
     color: #0b2685;
@@ -29,11 +66,12 @@ h2 {
     font-weight: 500;
 }
 
+
 p {
-  color: #19106d;
+    color: #19106d;
     font-size: 20px;
     font-weight: 900;
-    text-align: justify;
+    text-align: center;
 }
 
 a {
@@ -58,6 +96,10 @@ a {
     border-radius: 4px;
 }
 
+.btn-blue:hover {
+  color: rgb(15, 77, 25);
+}
+
 .list-inline {
     list-style: none;
     padding-left: 0px;
@@ -77,12 +119,20 @@ a {
 }
 
 .card-white {
-    background-color: white;
+    background: rgba(255,255,255,0.3);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
     padding: 40px;
+
     box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
-    border-radius: 4px;
+    border-radius: 10px;
     margin: 20px 0px;
     text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 div {
