@@ -14,13 +14,13 @@ body {
   margin-top: 90px;
 }
 
-/*.images {
-    background-image:url(https://www.editions-arteaz.com/wp-content/uploads/2020/11/cheveux-dange2.jpg);
+.images {
+    background-image:url(https://images.unsplash.com/photo-1464030871258-a01dfd38220a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2058&q=80);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     margin: 0%;
-}*/
+}
 
 li {
   display: flex;
